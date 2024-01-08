@@ -13,5 +13,7 @@ public class App {
         } else {
             System.out.println("The year you entered is not a leap year. ");
         }
+        leapScanner.close();
     }
+
 }
